@@ -99,7 +99,7 @@ const app = createApp({
 });
 
 app.component('product-modal', {
-    props:['tempProduct'],
+    props:['tempProduct','updateProduct'],
     template:'#product-modal-template'
 })
 
